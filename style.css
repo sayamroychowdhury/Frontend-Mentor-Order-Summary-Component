@@ -21,12 +21,20 @@ main{
     height: 100vh;
 }
 
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(0,-30%);
+}
+
 section{
     /* outline: 2px solid black; */
     color: black;
     text-align: center;
     border-radius: 0.75rem;
     background-color: white;
+    z-index: 1;
 }
 
 section .hero-img img{
@@ -89,6 +97,10 @@ section .hero-img img{
 .player > div:nth-child(2){
     color: hsl(245, 75%, 52%);
     text-decoration: underline;
+}
+
+.player > div:nth-child(2):hover{
+    text-decoration: none;
 }
 
 .payment{
