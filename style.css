@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    /* outline: 2px solid black; */
+    color: black;
+    text-align: center;
+    border-radius: 0.75rem;
+    background-color: white;
+}
+
+section .hero-img img{
+    width: 325px;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.text > div:nth-child(1){
+    color: hsl(223, 47%, 23%);
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 1.2rem;
+}
+
+.text > div:nth-child(2){
+    font-size: 0.8rem;
+    color: hsl(224, 23%, 55%);
+    margin: 0.8rem 0;
+    line-height: 1.2rem;
+}
+
+.player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto;
+    /* outline: 2px solid black; */
+    padding: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.5rem;
+}
+
+.player .iconText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player .iconText img{
+    width: 30%;
+}
+
+.player .iconText div{
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+}
+
+.player > div div:nth-child(1){
+    /* font-size: 0.75rem; */
+    font-weight: 750;
+    margin-bottom: 0.2rem;
+}
+
+.player > div:nth-child(2), .cancel{
+    font-size: 0.75rem;
+    font-weight: 750;
+}
+
+.player > div:nth-child(2){
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.payment{
+    /* outline: 2px solid black; */
+    width: 80%;
+    margin: 1.2rem auto;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 750;
+}
+
+.cancel{
+    margin-bottom: 2rem;
+}
